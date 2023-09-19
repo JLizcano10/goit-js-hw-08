@@ -33,10 +33,4 @@ let initTime = localStorage.getItem(Storage);
 console.log(initTime);
 player.setCurrentTime(initTime);
 
-/*
-const savedTime = localStorage.getItem(STORAGE_KEY);
-
-if (savedTime) {
-  player.setCurrentTime(savedTime);
-}
-*/
+console.log(initTime);
